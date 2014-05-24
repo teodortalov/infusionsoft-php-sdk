@@ -17,9 +17,10 @@
  * @property String ShippingTime
  * @property String InventoryNotifiee
  * @property String InventoryLimit
+ * @property Blob LargeImage
  */
 class Infusionsoft_Generated_Product extends Infusionsoft_Generated_Base{
-    protected static $tableFields = array('Id', 'ProductName', 'ProductPrice', 'Sku', 'ShortDescription', 'Taxable', 'Weight', 'IsPackage', 'NeedsDigitalDelivery', 'Description', 'HideInStore', 'Status', 'TopHTML', 'BottomHTML', 'ShippingTime', 'InventoryNotifiee', 'InventoryLimit', 'Shippable');
+    protected static $tableFields = array('Id', 'ProductName', 'ProductPrice', 'Sku', 'ShortDescription', 'Taxable', 'Weight', 'IsPackage', 'NeedsDigitalDelivery', 'Description', 'HideInStore', 'Status', 'TopHTML', 'BottomHTML', 'ShippingTime', 'InventoryNotifiee', 'InventoryLimit', 'Shippable', 'LargeImage');
     
     
     public function __construct($id = null, $app = null){    	    	
